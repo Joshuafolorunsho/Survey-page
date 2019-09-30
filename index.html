@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+	<!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title></title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">
+				You are using an <strong>outdated</strong> browser. Please
+				<a href="#">upgrade your browser</a> to improve your experience.
+			</p>
+		<![endif]-->
+		<main>
+			<h1 id="title">Survey Page</h1>
+			<section>
+				<p id="description">Tell us what we can improve</p>
+				<form id="survey-form">
+					<label id="name-label" for="name">* Name</label>
+					<input type="text" id="name" placeholder="Joe Doe" required />
+					<label id="email-label" for="email">* Email</label>
+					<input
+						type="email"
+						id="email"
+						placeholder="Joshua@gmail.com"
+						required
+					/>
+					<label id="number-label" for="number">Age</label>
+					<input type="number" id="number" placeholder="30" min="1" max="120" />
+					<label>What option best describes your current role?</label>
+					<select id="dropdown">
+						<option>Student</option>
+						<option>Full-time learner</option>
+						<option>Full-time Job</option>
+						<option>Rather not say</option>
+					</select>
+					<label
+						>* How likely is that you would recommend freeCodeCamp to a
+						friend?</label
+					>
+					<input type="radio" name="recommend" value="definitely" /><span
+						>Definitely</span
+					>
+					<input type="radio" name="recommend" value="Maybe" /><span
+						>Maybe</span
+					>
+					<input type="radio" name="recommend" value="not-sure" /><span
+						>Not sure</span
+					>
+					<label
+						>Things that should be improved in the future (Check all that
+						apply):</label
+					>
+					<input type="checkbox" value="Front-end" /> Front-end Projects
+					<input type="checkbox" value="Back-end" /> Back-end Projects
+					<input type="checkbox" value="Challenges" /> Challenges
+					<input type="checkbox" value="open-source-community" /> Open Source
+					Community
+					<label>Comment</label>
+					<textarea></textarea>
+					<input type="submit" id="submit" />
+				</form>
+			</section>
+		</main>
+	</body>
+</html>

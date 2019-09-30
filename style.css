@@ -1,3 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 * {
 	margin: 0;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #fff;
+}
+
+p {
+	font-size: 1.3rem;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+main {
+	width: 95%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2rem;
+	padding: 10px;
+	text-align: center;
+}
+label {
+	display: inline-block;
+	width: 40%;
+	text-align: right;
+	margin-top: 20px;
+}
+#name,
+#email,
+#number,
+#dropdown,
+#submit {
+	height: 35px;
+	width: 280px;
+	padding: 5px;
+	margin: 10px;
+	border: 1px solid #c0c0c0;
+	border-radius: 2px;
+}
+
+#submit {
+	background-color: #59ace0;
+	border-radius: 4px;
+	color: white;
+	font-size: 1em;
+	height: 40px;
+	width: 96px;
+	margin: 10px;
+	border: 0px solid;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+	position: relative;
+	left: -43px;
+	margin-left: 10px;
+	display: block;
+	padding-bottom: 10px;
 }

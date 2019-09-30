@@ -52,12 +52,3 @@ label {
 	margin: 10px;
 	border: 0px solid;
 }
-
-input[type='radio'],
-input[type='checkbox'] {
-	position: relative;
-	left: -43px;
-	margin-left: 10px;
-	display: block;
-	padding-bottom: 10px;
-}

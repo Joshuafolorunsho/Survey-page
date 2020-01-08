@@ -42,6 +42,12 @@ label {
 	border-radius: 2px;
 }
 
+
+.submit-container{
+  display: flex;
+  justify-content: center;
+}
+
 #submit {
 	background-color: #59ace0;
 	border-radius: 4px;
@@ -51,4 +57,24 @@ label {
 	width: 96px;
 	margin: 10px;
 	border: 0px solid;
+}
+
+@media (max-width: 720px){
+  * {
+	  font-size: 15px;
+  }
+}
+
+@media (max-width: 720px){
+  * {
+	  font-size: 18px;
+  }
+  
+  label {
+	  width: 100%;
+    text-align: left;
+  }
+  .submit-container{
+    justify-content: flex-start;
+  }
 }
